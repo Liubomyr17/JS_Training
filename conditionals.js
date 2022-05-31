@@ -136,6 +136,27 @@ const checkRadius = radius === 10 || radius < 100 ? "Ok" : "Not Ok";
 console.log(checkRadius);
 
 // Example 9
+const M_PI = 3.14;
+const rad = 10;
+const n = "Robert";
+
+console.log(n !== "Steven");
+
+// using 'and'
+const res1 = M_PI === 3.14 && radius >= 10
+    ? M_PI * (2 * rad)
+    : M_PI * (rad * rad);
+    
+    console.log("result", res1);
+
+// using 'not' and 'or'
+const res2 = radius !== 0 || radius < 1000
+    ? M_PI * (2 * rad)
+    : M_PI * (r * rad);
+
+    console.log("result 2", res2);
+
+// Example 10
 
 const r = 100;
 let resultOfTast;
