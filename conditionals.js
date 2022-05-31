@@ -143,20 +143,28 @@ const n = "Robert";
 console.log(n !== "Steven");
 
 // using 'and'
-const res1 = M_PI === 3.14 && radius >= 10
-    ? M_PI * (2 * rad)
-    : M_PI * (rad * rad);
-    
-    console.log("result", res1);
+const res1 =
+  M_PI === 3.14 && radius >= 10 ? M_PI * (2 * rad) : M_PI * (rad * rad);
+
+console.log("result", res1);
 
 // using 'not' and 'or'
-const res2 = radius !== 0 || radius < 1000
-    ? M_PI * (2 * rad)
-    : M_PI * (r * rad);
+const res2 =
+  radius !== 0 || radius < 1000 ? M_PI * (2 * rad) : M_PI * (r * rad);
 
-    console.log("result 2", res2);
+console.log("result 2", res2);
 
 // Example 10
+const mathPi = 3.14;
+const radius1 = 10;
+const formula = "circumference";
+
+const result1 =
+  formula === "circumference"
+    ? mathPi * (2 * radius1)
+    : mathPi * (radius1 * radius1);
+
+// Example 11
 
 const r = 100;
 let resultOfTast;
