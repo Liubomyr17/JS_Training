@@ -136,6 +136,23 @@ const checkRadius = radius === 10 || radius < 100 ? "Ok" : "Not Ok";
 console.log(checkRadius);
 
 // Example 9
+	
+const math_PI = 3.14;
+const radius3 = 10;
+const name = "Robert";
+
+// comparison
+console.log(math_PI === 3.14);
+
+console.log(name === "Steven");
+
+// numbers comparison
+console.log(radius > 10);
+console.log(radius >= 10);
+console.log(radius < 100);
+console.log(radius !== 0);
+
+// Example 10
 const M_PI = 3.14;
 const rad = 10;
 const n = "Robert";
@@ -154,7 +171,7 @@ const res2 =
 
 console.log("result 2", res2);
 
-// Example 10
+// Example 11
 const mathPi = 3.14;
 const radius1 = 10;
 const formula = "circumference";
@@ -164,7 +181,7 @@ const result1 =
     ? mathPi * (2 * radius1)
     : mathPi * (radius1 * radius1);
 
-// Example 11
+// Example 12
 
 const r = 100;
 let resultOfTast;
@@ -175,3 +192,64 @@ if (r > 0) {
 } else {
   console.log("Please check your r-value digit!");
 }
+
+// Example 13
+
+const result3 = MATH_PI * radius * radius;
+ 
+// shorter way to change a value;
+let result2 = 10 * 10;
+result2 *= MATH_PI;
+ 
+// decrease a value
+const a1 = 10;
+const b1 = 20;
+let c1 = 40;
+ 
+c1 = c1 - a1;
+// the same operation, shorter way
+c1 -= a1;
+ 
+c1 = c1 + b1;
+// the same operation, shorter way
+c1+= b1;
+// strings operations
+let text1 = "John";
+let text2 = "Doe";
+let text3 = text1 + " " + text2;
+
+// Example 14
+
+// I can add a comment like that 
+const myVar = 'test';
+ 
+/*
+ * I can add a comment also like that
+ * to have multilines comment
+ * 
+  /
+const myComment = "multiline comment";
+ 
+/* 
+ * Code down below is function that should find a sum of 2 elements
+  */
+ 
+ const sum = (a, b) => a + b;
+
+ // Example 15
+
+ // TO print a result we can use
+const a2 = 10;
+const b2 = 30;
+const sum2 = a2 + b2;
+ 
+console.log(a2 + b2);
+ 
+console.log("sum of a and b is equal to ", a2 + b2);
+// also sum variable can be printed
+console.log("sum of a and b is equal to ", sum);
+ 
+// info
+console.info("I can print some information");
+// error
+console.error("I can inform about an error");
