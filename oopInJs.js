@@ -10,6 +10,9 @@ class Animal {
   speak() {
     return "";
   }
+  toString() {
+    return Object.getPrototypeOf(this).constructor.name.color.numLegs;
+  }
 }
 
 class Dog extends Animal {
